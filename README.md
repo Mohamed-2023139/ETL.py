@@ -31,8 +31,8 @@ The transformation phase is a critical step in the ETL pipeline where raw data f
   - Generate derived fields or metrics (e.g., calculating age, profit margins, or flags).
 
    All transformations are implemented to ensure efficiency, reusability, and readability of the transformation logic.
-  ## 3- Data Loading
-       The final step of the ETL process involves loading the transformed data into a **SQL Server** database.
+  ###3- Data Loading
+    The final step of the ETL process involves loading the transformed data into a **SQL Server** database.
 
 - **Database Connection:** A secure connection to SQL Server is established using `SQLAlchemy`.
 - **Data Insertion:** The cleaned and transformed data is inserted into tables `.
@@ -41,6 +41,8 @@ The transformation phase is a critical step in the ETL pipeline where raw data f
 ---
 
 ## Project Structure
+
+
 etl_project/
 │
 ├── data/                 
@@ -56,4 +58,11 @@ etl_project/
 ├── requirements.txt      
 │
 ├── README.md
-├
+
+
+
+
+
+
+
+
