@@ -41,17 +41,21 @@ The transformation phase is a critical step in the ETL pipeline where raw data f
 ---
 
 ## Project Structure
-
 etl_project/
-├── data/
-│   ├── example_data.xlsx
-│   └── README.md
+│
+├── data/                
+│   └── example_data.xlsx
+│
 ├── etl/
 │   ├── extract.py        # (API + Web + Excel)
-│   ├── main.py           # (extract/transform/load)
-│   └── requirements.txt
-└── load.py               # SQL Server
-
+│   ├── transform.py      
+│   └── load.py           # SQL Server
+│
+├── main.py               # (extract/transform/load)
+│
+├── requirements.txt      
+│
+├── README.md             
 
 
 
