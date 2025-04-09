@@ -2,7 +2,7 @@
 
 This project demonstrates a simple but complete ETL (Extract, Transform, Load) pipeline using **Python** to extract data from multiple sources, transform it using **Pandas**, and load it into a **SQL Server** database.
 
-## Project Overview
+🚀 Project Overview
 
 The pipeline pulls data from the following sources:
   ### 1-  Extraction data
@@ -40,22 +40,22 @@ The transformation phase is a critical step in the ETL pipeline where raw data f
 - **Performance and Testing :** Data is loaded in batches to optimize performance, ensuring efficient handling of large datasets and test data using pytest.
 ---
 
-## Project Structure
-etl_project/
-│
-├── data/                
-│   └── example_data.xlsx
-│
-├── etl/
-│   ├── extract.py        # (API + Web + Excel)
-│   ├── transform.py      
-│   └── load.py           # SQL Server
-│
-├── main.py               # (extract/transform/load)
-│
-├── requirements.txt      
-│
-├── README.md             
+📂 Project Structure
+       etl_project/
+       │
+       ├── data/                
+       │   └── example_data.xlsx
+       │
+       ├── etl/
+       │   ├── extract.py        # (API + Web + Excel)
+       │   ├── transform.py      
+       │   └── load.py           # SQL Server
+       │
+       ├── main.py               # (extract/transform/load)
+       │
+       ├── requirements.txt      
+       │       
+       ├── README.md             
 
 
 
