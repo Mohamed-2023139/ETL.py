@@ -1,4 +1,4 @@
-# ETL Pipeline with Python & SQL Server
+# 🚀 ETL Pipeline with Python & SQL Server
 
 This project demonstrates a simple but complete ETL (Extract, Transform, Load) pipeline using **Python** to extract data from multiple sources, transform it using **Pandas**, and load it into a **SQL Server** database.
 
